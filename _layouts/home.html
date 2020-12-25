@@ -5,7 +5,7 @@ layout: default
 {% for post in site.posts %}
 <div>
     <h3>
-        <a href="{{ post.url }}" class="link-light">{{ post.title }}</a>
+        <a href="{{ post.url }}">{{ post.title }}</a>
     </br>
         <small class="text-muted h6">
             {{ post.date | date: "%A, %d %b %Y" }}, 

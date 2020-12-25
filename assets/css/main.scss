@@ -2,3 +2,11 @@
 # this ensures Jekyll reads the file to be transformed into CSS later
 # only Main files contain this front matter, not partials.
 ---
+
+a {
+    color: #f8f9fa;
+}
+a:hover, a:focus {
+    color: #f9fafb;
+    box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.15) !important;
+}
