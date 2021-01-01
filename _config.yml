@@ -61,8 +61,6 @@ defaults:
 collections:
   authors:
     output: true
-  programming:
-    output: true
 
 
 defaults:
@@ -75,12 +73,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "programming"
-    values:
-      layout: "post"
+      layout: "post"  
   - scope:
       path: ""
     values:
